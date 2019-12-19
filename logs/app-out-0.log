@@ -1,0 +1,260 @@
+2019-12-13 14:32:01: Listening on port 3001
+2019-12-13 14:32:08: { login: [AsyncFunction: login] } 1111
+2019-12-13 14:33:03: { login: [AsyncFunction: login] } 1111
+2019-12-13 14:33:28: { login: [AsyncFunction: login] } 1111
+2019-12-13 14:33:28: null
+2019-12-13 14:34:45: Listening on port 3001
+2019-12-13 14:34:47: Listening on port 3001
+2019-12-13 14:38:18: Listening on port 3001
+2019-12-13 14:38:22: Listening on port 3001
+2019-12-13 14:42:37: Listening on port 3001
+2019-12-13 14:42:41: Listening on port 3001
+2019-12-13 14:49:09: { login: [AsyncFunction: login] } 111 { request:
+   { method: 'POST',
+     url: '/api/login',
+     header:
+      { host: 'localhost:3001',
+        connection: 'keep-alive',
+        'content-length': '31',
+        authorization: '0b83f810-929d-41bd-87f9-dd69ad2ebe41',
+        'postman-token': '30e07ab5-5cac-dcf9-5f34-766efb9d8ec7',
+        'cache-control': 'no-cache',
+        origin: 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      [Object: null prototype] {
+        'x-dns-prefetch-control': 'off',
+        'x-frame-options': 'SAMEORIGIN',
+        'strict-transport-security': 'max-age=15552000; includeSubDomains',
+        'x-download-options': 'noopen',
+        'x-content-type-options': 'nosniff',
+        'x-xss-protection': '1; mode=block',
+        vary: 'Origin',
+        'access-control-allow-origin': '*',
+        'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/login',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+2019-12-13 14:49:09: null
+2019-12-13 14:49:13: Listening on port 3001
+2019-12-13 14:49:14: Listening on port 3001
+2019-12-13 14:50:08: { login: [AsyncFunction: login] } 111 { request:
+   { method: 'POST',
+     url: '/api/login',
+     header:
+      { host: 'localhost:3001',
+        connection: 'keep-alive',
+        'content-length': '31',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+        'cache-control': 'no-cache',
+        origin: 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+        'postman-token': '204f62d2-95b0-da92-edfb-0af0d16a2903',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      [Object: null prototype] {
+        'x-dns-prefetch-control': 'off',
+        'x-frame-options': 'SAMEORIGIN',
+        'strict-transport-security': 'max-age=15552000; includeSubDomains',
+        'x-download-options': 'noopen',
+        'x-content-type-options': 'nosniff',
+        'x-xss-protection': '1; mode=block',
+        vary: 'Origin',
+        'access-control-allow-origin': '*',
+        'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/login',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+2019-12-13 14:50:08: null
+2019-12-13 14:53:51: Listening on port 3001
+2019-12-13 14:53:52: Listening on port 3001
+2019-12-13 15:01:44: Listening on port 3001
+2019-12-13 15:01:45: Listening on port 3001
+2019-12-13 15:09:00: { login: [AsyncFunction: login] } 111 { request:
+   { method: 'POST',
+     url: '/api/login',
+     header:
+      { host: 'localhost:3001',
+        connection: 'keep-alive',
+        'content-length': '31',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+        'cache-control': 'no-cache',
+        origin: 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+        'postman-token': '0775d561-75d7-68d5-9629-7f073d0cfca1',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      [Object: null prototype] {
+        'x-dns-prefetch-control': 'off',
+        'x-frame-options': 'SAMEORIGIN',
+        'strict-transport-security': 'max-age=15552000; includeSubDomains',
+        'x-download-options': 'noopen',
+        'x-content-type-options': 'nosniff',
+        'x-xss-protection': '1; mode=block',
+        vary: 'Origin',
+        'access-control-allow-origin': '*',
+        'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/login',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+2019-12-13 15:09:00: null
+2019-12-13 15:09:05: Listening on port 3001
+2019-12-13 15:09:06: Listening on port 3001
+2019-12-13 15:09:21: { login: [AsyncFunction: login] } 111 { request:
+   { method: 'POST',
+     url: '/api/login',
+     header:
+      { host: 'localhost:3001',
+        connection: 'keep-alive',
+        'content-length': '31',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+        'cache-control': 'no-cache',
+        origin: 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+        'postman-token': '337da5bf-0f03-0c21-d261-6f9be2b12043',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      [Object: null prototype] {
+        'x-dns-prefetch-control': 'off',
+        'x-frame-options': 'SAMEORIGIN',
+        'strict-transport-security': 'max-age=15552000; includeSubDomains',
+        'x-download-options': 'noopen',
+        'x-content-type-options': 'nosniff',
+        'x-xss-protection': '1; mode=block',
+        vary: 'Origin',
+        'access-control-allow-origin': '*',
+        'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/login',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+2019-12-13 15:09:21: null
+2019-12-13 15:09:27: { login: [AsyncFunction: login] } 111 { request:
+   { method: 'POST',
+     url: '/api/login',
+     header:
+      { host: 'localhost:3001',
+        connection: 'keep-alive',
+        'content-length': '251',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+        'cache-control': 'no-cache',
+        origin: 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+        'postman-token': '80e6bf68-83dc-1ddf-b913-e409087a5c95',
+        'content-type':
+         'multipart/form-data; boundary=----WebKitFormBoundaryopdStTEzRXtpzTVi',
+        accept: '*/*',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      [Object: null prototype] {
+        'x-dns-prefetch-control': 'off',
+        'x-frame-options': 'SAMEORIGIN',
+        'strict-transport-security': 'max-age=15552000; includeSubDomains',
+        'x-download-options': 'noopen',
+        'x-content-type-options': 'nosniff',
+        'x-xss-protection': '1; mode=block',
+        vary: 'Origin',
+        'access-control-allow-origin': '*',
+        'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/login',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+2019-12-13 15:09:49: { login: [AsyncFunction: login] } 111 { request:
+   { method: 'POST',
+     url: '/api/login',
+     header:
+      { host: 'localhost:3001',
+        connection: 'keep-alive',
+        'content-length': '31',
+        'user-agent':
+         'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+        'cache-control': 'no-cache',
+        origin: 'chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop',
+        'postman-token': '34730c27-3eba-f020-cdfb-5322f84b7f7a',
+        'content-type': 'application/x-www-form-urlencoded',
+        accept: '*/*',
+        'sec-fetch-site': 'cross-site',
+        'sec-fetch-mode': 'cors',
+        'accept-encoding': 'gzip, deflate, br',
+        'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8' } },
+  response:
+   { status: 404,
+     message: 'Not Found',
+     header:
+      [Object: null prototype] {
+        'x-dns-prefetch-control': 'off',
+        'x-frame-options': 'SAMEORIGIN',
+        'strict-transport-security': 'max-age=15552000; includeSubDomains',
+        'x-download-options': 'noopen',
+        'x-content-type-options': 'nosniff',
+        'x-xss-protection': '1; mode=block',
+        vary: 'Origin',
+        'access-control-allow-origin': '*',
+        'access-control-expose-headers': 'WWW-Authenticate,Server-Authorization' } },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/api/login',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+2019-12-13 15:09:49: null
+2019-12-19 14:06:45: Listening on port 3001
+2019-12-19 14:07:11: Listening on port 3001
+2019-12-19 14:07:25: Listening on port 3001
+2019-12-19 14:07:56: Listening on port 3001
+2019-12-19 14:08:33: Listening on port 3001
+2019-12-19 14:09:22: Listening on port 3001
+2019-12-19 14:09:42: Listening on port 3001
+2019-12-19 14:09:43: Listening on port 3001
+2019-12-19 14:10:37: Listening on port 3001
+2019-12-19 14:10:54: Listening on port 3001
+2019-12-19 14:10:57: Listening on port 3001
+2019-12-19 14:11:12: 已清除缓存/api/data/4

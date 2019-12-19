@@ -1,0 +1,55 @@
+[2019-12-13T14:10:43.013] [INFO] [Default] - mongo is opened
+[2019-12-13T14:11:29.752] [INFO] [Default] - GET 404 / 请求参数： {} 响应参数： undefined - ::1 - 8ms
+[2019-12-13T14:11:30.406] [INFO] [Default] - GET 404 /favicon.ico 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2019-12-13T14:12:16.792] [INFO] [Default] - GET 404 /api/login 请求参数： {} 响应参数： undefined - ::1 - 1ms
+[2019-12-13T14:12:18.541] [INFO] [Default] - GET 404 /api/login 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2019-12-13T14:12:39.226] [INFO] [Default] - GET 404 /api/ 请求参数： {} 响应参数： undefined - ::1 - 0ms
+[2019-12-13T14:16:18.945] [INFO] [Default] - POST 200 /api/login 请求参数： {"------WebKitFormBoundaryym2VHMK9IoGExtFP\r\nContent-Disposition: form-data; name":"\"userName\"\r\n\r\n15057631272\r\n------WebKitFormBoundaryym2VHMK9IoGExtFP--\r\n"} 响应参数： {"code":400,"data":null,"msg":"无效的参数"} - ::1 - 37ms
+[2019-12-13T14:16:47.630] [INFO] [Default] - POST 200 /api/login 请求参数： {"------WebKitFormBoundaryJcaWi9sLMl0za0TT\r\nContent-Disposition: form-data; name":"\"userName\"\r\n\r\n15057631272\r\n------WebKitFormBoundaryJcaWi9sLMl0za0TT\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\n123456\r\n------WebKitFormBoundaryJcaWi9sLMl0za0TT--\r\n"} 响应参数： {"code":400,"data":null,"msg":"无效的参数"} - ::1 - 2ms
+[2019-12-13T14:25:38.938] [INFO] [Default] - GET 404 /api/login 请求参数： {} 响应参数： undefined - ::1 - 5ms
+[2019-12-13T14:28:25.948] [INFO] [Default] - POST 200 /api/login 请求参数： {"------WebKitFormBoundaryahmnXEt7t5Z7nKeV\r\nContent-Disposition: form-data; name":"\"userName\"\r\n\r\n15057631272\r\n------WebKitFormBoundaryahmnXEt7t5Z7nKeV\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\n123456\r\n------WebKitFormBoundaryahmnXEt7t5Z7nKeV--\r\n"} 响应参数： {"code":400,"data":null,"msg":"无效的参数"} - ::1 - 9ms
+[2019-12-13T14:29:13.132] [INFO] [Default] - mongo is opened
+[2019-12-13T14:29:16.826] [INFO] [Default] - POST 200 /api/login 请求参数： {"------WebKitFormBoundaryH6jpHBzccUbdu1cV\r\nContent-Disposition: form-data; name":"\"userName\"\r\n\r\n15057631272\r\n------WebKitFormBoundaryH6jpHBzccUbdu1cV\r\nContent-Disposition: form-data; name=\"password\"\r\n\r\n123456\r\n------WebKitFormBoundaryH6jpHBzccUbdu1cV--\r\n"} 响应参数： {"code":400,"data":null,"msg":"无效的参数"} - ::1 - 18ms
+[2019-12-13T15:11:11.644] [INFO] [Default] - mongo is opened
+[2019-12-13T15:11:14.061] [INFO] [Default] - POST 200 /api/login 请求参数： {"userName":"123456","password":"123456"} 响应参数： {"code":200,"msg":"用户不存在","data":""} - ::1 - 36ms
+[2019-12-13T15:12:29.391] [INFO] [Default] - POST 200 /api/login 请求参数： {} 响应参数： {"code":400,"data":null,"msg":"无效的参数"} - ::1 - 4ms
+[2019-12-13T15:12:39.785] [INFO] [Default] - POST 200 /api/login 请求参数： {"userName":"123456","password":"123456"} 响应参数： {"code":200,"msg":"用户不存在","data":""} - ::1 - 5ms
+[2019-12-13T15:13:42.870] [INFO] [Default] - mongo is opened
+[2019-12-13T15:13:44.466] [INFO] [Default] - POST 200 /api/login 请求参数： {"userName":"123456","password":"123456"} 响应参数： {"code":200,"msg":"用户不存在","data":""} - ::1 - 42ms
+[2019-12-13T15:21:19.020] [INFO] [Default] - mongo is opened
+[2019-12-13T15:21:20.375] [INFO] [Default] - POST 200 /api/login 请求参数： {"userName":"123456","password":"123456"} 响应参数： {"code":200,"msg":"用户不存在","data":""} - ::1 - 40ms
+[2019-12-13T15:21:51.150] [INFO] [Default] - mongo is opened
+[2019-12-13T15:21:54.735] [INFO] [Default] - POST 200 /api/login 请求参数： {"userName":"123456","password":"123456"} 响应参数： {"code":200,"msg":"用户不存在","data":""} - ::1 - 42ms
+[2019-12-13T15:21:54.860] [INFO] [Default] - POST 200 /api/login 请求参数： {"userName":"123456","password":"123456"} 响应参数： {"code":200,"msg":"用户不存在","data":""} - ::1 - 4ms
+[2019-12-13T15:23:30.176] [INFO] [Default] - mongo is opened
+[2019-12-13T15:23:32.285] [INFO] [Default] - POST 200 /api/login 请求参数： {"userName":"123456","password":"123456"} 响应参数： {"code":200,"msg":"","data":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjoiNWRmMzM4ZDdkYTI0MzY3NzA3NWUwODkzIiwiZXhwIjoxNTc2MjI1NDEyLCJpYXQiOjE1NzYyMjE4MTJ9.igV3QenbSxnfz6k_tbldnf-_k7w5Ie8mKDdkqSvhDSU"} - ::1 - 32ms
+[2019-12-13T15:45:30.660] [INFO] [Default] - POST 404 /api/authorize 请求参数： {"userName":"123456","password":"123456"} 响应参数： undefined - ::1 - 6ms
+[2019-12-13T15:50:31.350] [INFO] [Default] - mongo is opened
+[2019-12-13T15:50:32.554] [INFO] [Default] - POST 404 /api/authorize 请求参数： {"userName":"123456","password":"123456"} 响应参数： undefined - ::1 - 30ms
+[2019-12-13T15:51:43.129] [INFO] [Default] - POST 404 /api/authorize 请求参数： {"AppId":"123456","CreateTime":"12345678900000","InfoType":"component_verify_ticket","ComponentVerifyTicket":"some_verify_ticket"} 响应参数： undefined - ::1 - 4ms
+[2019-12-13T16:47:52.367] [INFO] [Default] - mongo is opened
+[2019-12-13T16:47:57.322] [ERROR] [Default] - ReferenceError: localStorage is not defined
+    at chang.authorize (/Users/zhengjinbin/code/koa-template/controllers/chang.js:5:5)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhengjinbin/code/koa-template/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-compose/index.js:42:32)
+    at cors (/Users/zhengjinbin/code/koa-template/node_modules/koa2-cors/dist/index.js:91:15)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-compose/index.js:42:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-12-13T16:47:57.324] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"AppId":"123456","CreateTime":"12345678900000","InfoType":"component_verify_ticket","ComponentVerifyTicket":"some_verify_ticket"} 响应参数： {"code":-1,"data":null,"msg":"localStorage is not defined"} - ::1 - 22ms
+[2019-12-13T16:56:54.025] [INFO] [Default] - mongo is opened
+[2019-12-13T16:56:56.659] [INFO] [Default] - POST 404 /api/authorize 请求参数： {"AppId":"123456","CreateTime":"12345678900000","InfoType":"component_verify_ticket","ComponentVerifyTicket":"some_verify_ticket"} 响应参数： undefined - ::1 - 21ms
+[2019-12-13T17:02:46.767] [INFO] [Default] - mongo is opened
+[2019-12-13T17:02:49.173] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"AppId":"123456","CreateTime":"12345678900000","InfoType":"component_verify_ticket","ComponentVerifyTicket":"some_verify_ticket"} 响应参数： {"code":200,"msg":"接收ticket成功","data":""} - ::1 - 25ms
+[2019-12-13T17:46:52.542] [INFO] [Default] - mongo is opened
+[2019-12-13T17:46:56.670] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"AppId":"123456","CreateTime":"12345678900000","InfoType":"component_verify_ticket","ComponentVerifyTicket":"some_verify_ticket"} 响应参数： {"code":200,"msg":"接收ticket成功","data":""} - ::1 - 27ms
+[2019-12-13T17:47:42.563] [INFO] [Default] - mongo is opened
+[2019-12-13T17:47:44.438] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"AppId":"123456","CreateTime":"12345678900000","InfoType":"component_verify_ticket","ComponentVerifyTicket":"some_verify_ticket"} 响应参数： {"code":200,"msg":"接收ticket成功","data":""} - ::1 - 32ms
+[2019-12-13T17:48:35.197] [INFO] [Default] - mongo is opened
+[2019-12-13T17:48:39.176] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"AppId":"123456","CreateTime":"12345678900000","InfoType":"component_verify_ticket","ComponentVerifyTicket":"some_verify_ticket"} 响应参数： {"code":200,"msg":"接收ticket成功","data":""} - ::1 - 26ms
+[2019-12-13T17:49:16.998] [INFO] [Default] - mongo is opened
+[2019-12-13T17:49:18.616] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"AppId":"123456","CreateTime":"12345678900000","InfoType":"component_verify_ticket","ComponentVerifyTicket":"some_verify_ticket"} 响应参数： {"code":200,"msg":"接收ticket成功","data":""} - ::1 - 28ms

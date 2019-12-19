@@ -1,0 +1,117 @@
+[2019-12-17T10:02:04.181] [INFO] [Default] - mongo is opened
+[2019-12-17T10:23:28.307] [INFO] [Default] - mongo is opened
+[2019-12-17T10:25:00.993] [INFO] [Default] - mongo is opened
+[2019-12-17T10:27:37.140] [INFO] [Default] - mongo is opened
+[2019-12-17T10:29:52.187] [ERROR] [Default] - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at chang.authorize (/Users/zhengjinbin/code/koa-template/controllers/chang.js:12:20)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhengjinbin/code/koa-template/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-compose/index.js:42:32)
+    at cors (/Users/zhengjinbin/code/koa-template/node_modules/koa2-cors/dist/index.js:91:15)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-compose/index.js:42:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-12-17T10:29:52.189] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"xml":{"AppId":["some_appid"],"CreateTime":["1413192605"],"InfoType":["component_verify_ticket"],"ComponentVerifyTicket":["some_verify_ticket"]}} 响应参数： {"code":-1,"data":null,"msg":"Unexpected token o in JSON at position 1"} - ::1 - 35ms
+[2019-12-17T10:29:59.520] [ERROR] [Default] - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at chang.authorize (/Users/zhengjinbin/code/koa-template/controllers/chang.js:12:20)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhengjinbin/code/koa-template/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-compose/index.js:42:32)
+    at cors (/Users/zhengjinbin/code/koa-template/node_modules/koa2-cors/dist/index.js:91:15)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-compose/index.js:42:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-12-17T10:29:59.521] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"xml":{"AppId":["some_appid"],"CreateTime":["1413192605"],"InfoType":["component_verify_ticket"],"ComponentVerifyTicket":["some_verify_ticket"]}} 响应参数： {"code":-1,"data":null,"msg":"Unexpected token o in JSON at position 1"} - ::1 - 4ms
+[2019-12-17T10:30:32.084] [ERROR] [Default] - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at chang.authorize (/Users/zhengjinbin/code/koa-template/controllers/chang.js:12:20)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhengjinbin/code/koa-template/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-compose/index.js:42:32)
+    at cors (/Users/zhengjinbin/code/koa-template/node_modules/koa2-cors/dist/index.js:91:15)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-compose/index.js:42:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-12-17T10:30:32.084] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"xml":{"AppId":["some_appid"],"CreateTime":["1413192605"],"InfoType":["component_verify_ticket"],"ComponentVerifyTicket":["some_verify_ticket"]}} 响应参数： {"code":-1,"data":null,"msg":"Unexpected token o in JSON at position 1"} - ::1 - 1ms
+[2019-12-17T10:31:04.584] [INFO] [Default] - mongo is opened
+[2019-12-17T10:36:16.929] [INFO] [Default] - mongo is opened
+[2019-12-17T10:37:03.360] [INFO] [Default] - mongo is opened
+[2019-12-17T10:38:16.677] [INFO] [Default] - mongo is opened
+[2019-12-17T10:38:25.176] [INFO] [Default] - mongo is opened
+[2019-12-17T10:38:33.526] [INFO] [Default] - mongo is opened
+[2019-12-17T10:46:58.409] [INFO] [Default] - mongo is opened
+[2019-12-17T10:47:12.211] [INFO] [Default] - mongo is opened
+[2019-12-17T11:58:04.822] [INFO] [Default] - mongo is opened
+[2019-12-17T11:58:46.284] [INFO] [Default] - mongo is opened
+[2019-12-17T11:59:19.535] [INFO] [Default] - mongo is opened
+[2019-12-17T13:06:39.393] [INFO] [Default] - mongo is opened
+[2019-12-17T13:07:40.020] [INFO] [Default] - mongo is opened
+[2019-12-17T13:08:07.963] [INFO] [Default] - mongo is opened
+[2019-12-17T13:08:44.947] [INFO] [Default] - mongo is opened
+[2019-12-17T13:08:56.612] [INFO] [Default] - mongo is opened
+[2019-12-17T13:09:19.519] [INFO] [Default] - mongo is opened
+[2019-12-17T13:09:29.931] [ERROR] [Default] - SyntaxError: Unexpected token o in JSON at position 1
+    at JSON.parse (<anonymous>)
+    at chang.authorize (/Users/zhengjinbin/code/koa-template/controllers/chang.js:12:20)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhengjinbin/code/koa-template/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-compose/index.js:42:32)
+    at cors (/Users/zhengjinbin/code/koa-template/node_modules/koa2-cors/dist/index.js:91:15)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-compose/index.js:42:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-12-17T13:09:29.932] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"xml":{"AppId":["some_appid"],"CreateTime":["1413192605"],"InfoType":["component_verify_ticket"],"ComponentVerifyTicket":["some_verify_ticket"]}} 响应参数： {"code":-1,"data":null,"msg":"Unexpected token o in JSON at position 1"} - ::1 - 25ms
+[2019-12-17T13:09:56.507] [INFO] [Default] - mongo is opened
+[2019-12-17T13:09:58.585] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"xml":{"AppId":["some_appid"],"CreateTime":["1413192605"],"InfoType":["component_verify_ticket"],"ComponentVerifyTicket":["some_verify_ticket"]}} 响应参数： "success" - ::1 - 28ms
+[2019-12-17T13:10:18.088] [INFO] [Default] - mongo is opened
+[2019-12-17T13:10:21.426] [ERROR] [Default] - TypeError: Cannot read property '0' of undefined
+    at Object.wxdecode.decodeXML (/Users/zhengjinbin/code/koa-template/middlewares/wxdecode.js:43:36)
+    at chang.authorize (/Users/zhengjinbin/code/koa-template/controllers/chang.js:21:30)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:45:18)
+    at /Users/zhengjinbin/code/koa-template/node_modules/koa-router/lib/router.js:346:16
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:44:32)
+    at /Users/zhengjinbin/code/koa-template/node_modules/koa-router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-router/lib/router.js:351:31)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-compose/index.js:42:32)
+    at cors (/Users/zhengjinbin/code/koa-template/node_modules/koa2-cors/dist/index.js:91:15)
+    at dispatch (/Users/zhengjinbin/code/koa-template/node_modules/koa-compose/index.js:42:32)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-12-17T13:10:21.427] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"xml":{"AppId":["some_appid"],"CreateTime":["1413192605"],"InfoType":["component_verify_ticket"],"ComponentVerifyTicket":["some_verify_ticket"]}} 响应参数： {"code":-1,"data":null,"msg":"Cannot read property '0' of undefined"} - ::1 - 21ms
+[2019-12-17T13:11:17.702] [INFO] [Default] - mongo is opened
+[2019-12-17T13:11:20.888] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"xml":{"AppId":["some_appid"],"CreateTime":["1413192605"],"InfoType":["component_verify_ticket"],"ComponentVerifyTicket":["some_verify_ticket"]}} 响应参数： "success" - ::1 - 26ms
+[2019-12-17T13:12:05.675] [INFO] [Default] - mongo is opened
+[2019-12-17T13:12:07.519] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"xml":{"AppId":["some_appid"],"CreateTime":["1413192605"],"InfoType":["component_verify_ticket"],"ComponentVerifyTicket":["some_verify_ticket"]}} 响应参数： "success" - ::1 - 31ms
+[2019-12-17T13:12:25.113] [INFO] [Default] - mongo is opened
+[2019-12-17T13:12:28.324] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"xml":{"AppId":["some_appid"],"CreateTime":["1413192605"],"InfoType":["component_verify_ticket"],"ComponentVerifyTicket":["some_verify_ticket"]}} 响应参数： "success" - ::1 - 52ms
+[2019-12-17T13:13:04.405] [INFO] [Default] - mongo is opened
+[2019-12-17T13:13:06.912] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"xml":{"AppId":["some_appid"],"CreateTime":["1413192605"],"InfoType":["component_verify_ticket"],"ComponentVerifyTicket":["some_verify_ticket"]}} 响应参数： "success" - ::1 - 30ms
+[2019-12-17T13:14:04.893] [INFO] [Default] - mongo is opened
+[2019-12-17T13:14:09.733] [INFO] [Default] - mongo is opened
+[2019-12-17T13:14:12.395] [INFO] [Default] - POST 200 /api/authorize 请求参数： {"xml":{"AppId":["some_appid"],"CreateTime":["1413192605"],"InfoType":["component_verify_ticket"],"ComponentVerifyTicket":["some_verify_ticket"]}} 响应参数： "success" - ::1 - 31ms
+[2019-12-17T13:15:10.065] [INFO] [Default] - mongo is opened
+[2019-12-17T13:45:10.263] [INFO] [Default] - mongo is opened
+[2019-12-17T13:45:17.601] [INFO] [Default] - mongo is opened
+[2019-12-17T13:51:01.374] [INFO] [Default] - mongo is opened
+[2019-12-17T13:57:58.065] [INFO] [Default] - mongo is opened
+[2019-12-17T13:59:06.900] [INFO] [Default] - mongo is opened
+[2019-12-17T14:00:21.645] [INFO] [Default] - mongo is opened
+[2019-12-17T14:01:47.445] [INFO] [Default] - mongo is opened
+[2019-12-17T14:13:18.903] [INFO] [Default] - mongo is opened
+[2019-12-17T14:13:53.667] [INFO] [Default] - mongo is opened
+[2019-12-17T14:14:09.545] [INFO] [Default] - mongo is opened
+[2019-12-17T14:14:12.740] [INFO] [Default] - mongo is opened
