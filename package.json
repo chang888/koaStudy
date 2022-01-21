@@ -20,7 +20,7 @@
     "koa-static-cache": "^5.1.2",
     "koa-xml-body": "^2.1.0",
     "koa2-cors": "^2.0.6",
-    "log4js": "^3.0.6",
+    "log4js": "^6.4.0",
     "mongoose": "^5.5.5",
     "request": "^2.88.0",
     "wechat-encrypt": "^1.1.1",
